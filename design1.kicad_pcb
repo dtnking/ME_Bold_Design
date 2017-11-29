@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 126.674999 96.038394 183.575001 110.614006)
+    (area 118.444287 94.29 178.825001 110.26643)
     (thickness 1.6)
     (drawings 6)
     (tracks 0)
@@ -23,7 +23,7 @@
     (36 B.SilkS user hide)
     (37 F.SilkS user hide)
     (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user)
@@ -65,7 +65,7 @@
     (grid_origin 126.75 99.25)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x01080_00000001)
+      (layerselection 0x010ff_80000001)
       (usegerberextensions true)
       (usegerberattributes true)
       (excludeedgelayer true)
@@ -665,7 +665,7 @@
   )
 
   (module "VIA:Via(0.435-0.3mm)" (layer F.Cu) (tedit 5A1BEAC8) (tstamp 5A1BEBC3)
-    (at 128.23 103.1)
+    (at 128.31 100.8)
     (fp_text reference REF** (at 0.46 1.67) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
